@@ -13,6 +13,9 @@ pub use map_state::{map_state, MapState};
 mod map_action;
 pub use map_action::{map_action, MapAction};
 
+mod map_task;
+pub use map_task::{map_task, MapTask};
+
 mod fork;
 pub use fork::{fork, Fork};
 
